@@ -29,7 +29,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments,
 import huggingface_hub
 
 
-huggingface_hub.login(token='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')
+huggingface_hub.login(token='****')
 """
 A simple example on using SFTTrainer and Accelerate to finetune Phi-3 models. For
 a more advanced example, please follow HF alignment-handbook/scripts/run_sft.py.
